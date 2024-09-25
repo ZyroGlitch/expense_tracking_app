@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "598620011189",
+    "firebase_url": "https://expense-tracking-app-ad27a-default-rtdb.firebaseio.com",
+    "project_id": "expense-tracking-app-ad27a",
+    "storage_bucket": "expense-tracking-app-ad27a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598620011189:android:3cdb9c5a7f59d87ea05cfc",
+        "android_client_info": {
+          "package_name": "com.example.expense_tracking_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDZQEZuAti46Z6B3OEESmfbvqj0u802js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598620011189:android:c4ff3d7934544867a05cfc",
+        "android_client_info": {
+          "package_name": "com.feelmore.expensetracking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDZQEZuAti46Z6B3OEESmfbvqj0u802js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
