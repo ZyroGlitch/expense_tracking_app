@@ -73,11 +73,8 @@ class _CategoryState extends State<Category> {
                         ],
                       ),
                       SizedBox(height: 24),
-                      categoryComponent(
-                        image: 'assets/salary.png',
-                        name: 'Salary',
-                        boxBg: Color.fromARGB(255, 87, 145, 87),
-                        onTapFunction: () {
+                      InkWell(
+                        onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (context) => addList(
@@ -89,6 +86,11 @@ class _CategoryState extends State<Category> {
                             ),
                           );
                         },
+                        child: categoryComponent(
+                          image: 'assets/salary.png',
+                          name: 'Salary',
+                          boxBg: Color.fromARGB(255, 87, 145, 87),
+                        ),
                       ),
                       SizedBox(height: 30),
                       Row(
@@ -104,11 +106,8 @@ class _CategoryState extends State<Category> {
                         ],
                       ),
                       SizedBox(height: 24),
-                      categoryComponent(
-                        image: 'assets/home.png',
-                        name: 'Rent',
-                        boxBg: Color.fromARGB(255, 58, 150, 150),
-                        onTapFunction: () {
+                      InkWell(
+                        onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (context) => addList(
@@ -120,13 +119,15 @@ class _CategoryState extends State<Category> {
                             ),
                           );
                         },
+                        child: categoryComponent(
+                          image: 'assets/home.png',
+                          name: 'Rent',
+                          boxBg: Color.fromARGB(255, 58, 150, 150),
+                        ),
                       ),
                       SizedBox(height: 24),
-                      categoryComponent(
-                        image: 'assets/food.png',
-                        name: 'Food',
-                        boxBg: Color.fromARGB(255, 231, 188, 237),
-                        onTapFunction: () {
+                      InkWell(
+                        onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (context) => addList(
@@ -138,13 +139,15 @@ class _CategoryState extends State<Category> {
                             ),
                           );
                         },
+                        child: categoryComponent(
+                          image: 'assets/food.png',
+                          name: 'Food',
+                          boxBg: Color.fromARGB(255, 231, 188, 237),
+                        ),
                       ),
                       SizedBox(height: 24),
-                      categoryComponent(
-                        image: 'assets/cloth.png',
-                        name: 'Cloth',
-                        boxBg: Color.fromARGB(255, 208, 200, 255),
-                        onTapFunction: () {
+                      InkWell(
+                        onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (context) => addList(
@@ -156,13 +159,15 @@ class _CategoryState extends State<Category> {
                             ),
                           );
                         },
+                        child: categoryComponent(
+                          image: 'assets/cloth.png',
+                          name: 'Cloth',
+                          boxBg: Color.fromARGB(255, 208, 200, 255),
+                        ),
                       ),
                       SizedBox(height: 24),
-                      categoryComponent(
-                        image: 'assets/health.png',
-                        name: 'Health',
-                        boxBg: Color.fromARGB(255, 255, 207, 207),
-                        onTapFunction: () {
+                      InkWell(
+                        onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (context) => addList(
@@ -174,13 +179,15 @@ class _CategoryState extends State<Category> {
                             ),
                           );
                         },
+                        child: categoryComponent(
+                          image: 'assets/health.png',
+                          name: 'Health',
+                          boxBg: Color.fromARGB(255, 255, 207, 207),
+                        ),
                       ),
                       SizedBox(height: 24),
-                      categoryComponent(
-                        image: 'assets/electricity.png',
-                        name: 'Electricity',
-                        boxBg: Color.fromARGB(255, 0, 0, 0),
-                        onTapFunction: () {
+                      InkWell(
+                        onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (context) => addList(
@@ -192,13 +199,15 @@ class _CategoryState extends State<Category> {
                             ),
                           );
                         },
+                        child: categoryComponent(
+                          image: 'assets/electricity.png',
+                          name: 'Electricity',
+                          boxBg: Color.fromARGB(255, 0, 0, 0),
+                        ),
                       ),
                       SizedBox(height: 24),
-                      categoryComponent(
-                        image: 'assets/education.png',
-                        name: 'Education',
-                        boxBg: Color.fromARGB(255, 224, 212, 212),
-                        onTapFunction: () {
+                      InkWell(
+                        onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (context) => addList(
@@ -210,13 +219,15 @@ class _CategoryState extends State<Category> {
                             ),
                           );
                         },
+                        child: categoryComponent(
+                          image: 'assets/education.png',
+                          name: 'Education',
+                          boxBg: Color.fromARGB(255, 224, 212, 212),
+                        ),
                       ),
                       SizedBox(height: 24),
-                      categoryComponent(
-                        image: 'assets/transportation.png',
-                        name: 'Transportation',
-                        boxBg: Color.fromARGB(255, 1, 57, 9),
-                        onTapFunction: () {
+                      InkWell(
+                        onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (context) => addList(
@@ -228,13 +239,15 @@ class _CategoryState extends State<Category> {
                             ),
                           );
                         },
+                        child: categoryComponent(
+                          image: 'assets/transportation.png',
+                          name: 'Transportation',
+                          boxBg: Color.fromARGB(255, 1, 57, 9),
+                        ),
                       ),
                       SizedBox(height: 24),
-                      categoryComponent(
-                        image: 'assets/travel.png',
-                        name: 'Travel',
-                        boxBg: Color.fromARGB(255, 255, 227, 178),
-                        onTapFunction: () {
+                      InkWell(
+                        onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (context) => addList(
@@ -246,13 +259,15 @@ class _CategoryState extends State<Category> {
                             ),
                           );
                         },
+                        child: categoryComponent(
+                          image: 'assets/travel.png',
+                          name: 'Travel',
+                          boxBg: Color.fromARGB(255, 255, 227, 178),
+                        ),
                       ),
                       SizedBox(height: 24),
-                      categoryComponent(
-                        image: 'assets/repair.png',
-                        name: 'Repair',
-                        boxBg: Color.fromARGB(255, 0, 0, 0),
-                        onTapFunction: () {
+                      InkWell(
+                        onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (context) => addList(
@@ -264,13 +279,15 @@ class _CategoryState extends State<Category> {
                             ),
                           );
                         },
+                        child: categoryComponent(
+                          image: 'assets/repair.png',
+                          name: 'Repair',
+                          boxBg: Color.fromARGB(255, 0, 0, 0),
+                        ),
                       ),
                       SizedBox(height: 24),
-                      categoryComponent(
-                        image: 'assets/telephone.png',
-                        name: 'Telephone',
-                        boxBg: Color.fromARGB(255, 105, 148, 97),
-                        onTapFunction: () {
+                      InkWell(
+                        onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (context) => addList(
@@ -282,6 +299,11 @@ class _CategoryState extends State<Category> {
                             ),
                           );
                         },
+                        child: categoryComponent(
+                          image: 'assets/telephone.png',
+                          name: 'Telephone',
+                          boxBg: Color.fromARGB(255, 105, 148, 97),
+                        ),
                       ),
                     ],
                   ),

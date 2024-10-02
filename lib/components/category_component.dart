@@ -6,13 +6,11 @@ class categoryComponent extends StatelessWidget {
     required this.image,
     required this.name,
     required this.boxBg,
-    required this.onTapFunction,
   });
 
   final String image;
   final String name;
   final Color boxBg;
-  final VoidCallback onTapFunction;
 
   @override
   Widget build(BuildContext context) {
@@ -51,13 +49,6 @@ class categoryComponent extends StatelessWidget {
                 ),
               ),
             ],
-          ),
-          InkWell(
-            onTap: onTapFunction,
-            child: Icon(
-              Icons.keyboard_arrow_right,
-              size: 30,
-            ),
           ),
         ],
       ),

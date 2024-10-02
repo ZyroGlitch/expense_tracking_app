@@ -55,7 +55,7 @@ class _addListState extends State<addList> {
                   onPressed: () {
                     Navigator.pop(context);
                   },
-                  child: Text('CANCEL'),
+                  child: Text('OK'),
                 ),
               ),
             ],

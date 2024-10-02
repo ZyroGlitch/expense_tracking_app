@@ -250,7 +250,7 @@ class _editProfileState extends State<editProfile> {
                   onPressed: () {
                     Navigator.pop(context);
                   },
-                  child: Text('CANCEL'),
+                  child: Text('OK'),
                 ),
               ),
             ],
